@@ -1,6 +1,6 @@
 // Author: Elliott Larsen
 // Date: 3/22/2022
-// Description: 
+// Description: This program asks the user to enter five numbers and shows the average of those numbers.
 
 import java.util.Scanner;
 
@@ -14,6 +14,7 @@ class Average {
         String input4 = scanner.nextLine();
         String input5 = scanner.nextLine();
 
+        // Converting strings to floats
         float num1 = Float.parseFloat(input1);
         float num2 = Float.parseFloat(input2);
         float num3 = Float.parseFloat(input3);
@@ -21,10 +22,11 @@ class Average {
         float num5 = Float.parseFloat(input5);
         
         float result = (num1 + num2 + num3 + num4 + num5) / 5;
-        System.out.println("The average of those numbers is:");
+        System.out.print("Option 1: The average of those numbers is:");
         System.out.println(result);
         
-
+        // result is converted to a string.
+        System.out.println("Option 2: The average of those numbers is: " + result);
 
     }
 }

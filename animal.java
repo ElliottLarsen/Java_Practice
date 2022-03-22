@@ -1,6 +1,6 @@
 // Author: Elliott Larsen
 // Date: 3/21/2022
-// Description:
+// Description: This program asks the user to enter their favorite animal and shows the result back to the user.
 
 import java.util.Scanner;
 
